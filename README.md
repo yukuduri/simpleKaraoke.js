@@ -63,6 +63,12 @@ player.createFromSongUrl("http://www.youtube.com/watch?v=ygY2qObZv24", {
 });
 ```
 
+# 著作権関係
+
+当アプリケーションは、「ICOON MONO」のアイコン素材を利用しています。ライセンスについては下記をご参照下さい。
+
+[ラインセンスについて | アイコン素材ダウンロードサイト「icooon-mono」 | 商用利用可能なアイコン素材が無料(フリー)ダウンロードできるサイト](https://icooon-mono.com/license/ "ラインセンスについて | アイコン素材ダウンロードサイト「icooon-mono」 | 商用利用可能なアイコン素材が無料(フリー)ダウンロードできるサイト")
+
 # プレビュー
 
 ![preview](./images/md/preview.png)
