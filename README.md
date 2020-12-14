@@ -16,6 +16,18 @@ TextAlive App APIを利用したカラオケ練習ができるWebアプリケー
 Failed to load resource: net::ERR_FILE_NOT_FOUND      api.js:1
 ```
 
+## [デモサイト](https://yukuduri.github.io/simpleKaraoke.js/)（GitHubPages）における動作推奨環境
+
+下記以外の環境では動作を保証しません。ただし、下記環境下でも不具合等が生じた場合、[作者Twitter](https://twitter.com/durian3960)までお知らせください。
+
+- PC
+  - Google Chrome
+- スマホ・タブレット（iOS端末）
+  - 標準ブラウザ（Safari）
+  - Google Chrome
+- スマホ・タブレット（Android端末）
+  - Google Chrome
+
 # 使い方
 再生・一時停止、停止のほか、右下に表示される動画の表示／非表示の切り替えも可能です。
 
