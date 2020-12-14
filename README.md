@@ -8,10 +8,20 @@ TextAlive App APIを利用したカラオケ練習ができるWebアプリケー
 - [x] Bracketsのライブプレビュー機能
 - [x] Google Chrome
 
+以上の条件のもとで確認しています。GitHubPagesに公開すれば動作することは確認していますが、HTMLファイルをそのままブラウザから開くだけでは次のようなエラーが出て実行できません：
+
+
+```
+（Chromeの開発者ツールにおけるエラーメッセージ）
+Failed to load resource: net::ERR_FILE_NOT_FOUND      api.js:1
+```
+
 # 使い方
 再生・一時停止、停止のほか、右下に表示される動画の表示／非表示の切り替えも可能です。
 
 `js/simpleKaraoke.js`の23～68行目、`player.createFromSongUrl(...);`のいずれか1つのコメントアウトを外すことで選曲可能です。
+
+**※[プログラミングコンテスト](https://developer.textalive.jp/events/magicalmirai2020/ "初音ミク「マジカルミライ 2020」 プログラミング・コンテスト | TextAlive for Developers")応募時の規定に基づきこのような仕様になっていますが、今後、[デモサイト](https://yukuduri.github.io/simpleKaraoke.js/)からも楽曲を選曲可能にする予定です。**
 
 ```JavaScript:js/simpleKaraoke.js
 // グリーンライツ・セレナーデ / Omoi feat. 初音ミク
